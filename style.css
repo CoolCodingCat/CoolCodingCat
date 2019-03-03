@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin-top: 0;
+    
+   
+    
+}
+.homepage{
+    
+    height: 800px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(129, 236, 236,0.4),
+        rgba(129, 236, 236,0.4)
+        ),
+        url(keyboard.jpg);
+    background-size: cover;
+    
+}
+.logo {
+    transition: 0.8s ease;
+    width: 400px;
+    opacity: 1.0;
+    filter:alpha(opacity=100);
+}
+.logo:hover {
+    transition: 0.8s ease;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.homepageTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: #3c6382;
+}
+.homepage > p {
+    font-size: 30px;
+    color: #C97072;
+}
+.homepageTitle:hover {
+    color: #f53b57;
+}
+
