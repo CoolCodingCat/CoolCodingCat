@@ -1,7 +1,7 @@
 
 body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    margin-top: 0;
+    margin: 0;
     
    
     
@@ -14,6 +14,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /*Use of linear background to add both the overlay
+    and the picture under a single tag for animation purposes  */
     background: linear-gradient(
         rgba(129, 236, 236,0.4),
         rgba(129, 236, 236,0.4)
