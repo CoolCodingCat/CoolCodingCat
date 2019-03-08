@@ -17,8 +17,8 @@ body {
     /*Use of linear background to add both the overlay
     and the picture under a single tag for animation purposes  */
     background: linear-gradient(
-        rgba(129, 236, 236,0.4),
-        rgba(129, 236, 236,0.4)
+        rgba(129, 236, 236,0.6),
+        rgba(129, 236, 236,0.6)
         ),
         url(keyboard.jpg);
     background-size: cover;
@@ -34,6 +34,7 @@ body {
     transition: 0.8s ease;
     opacity: 0;
     filter: alpha(opacity=0);
+    cursor:help;
 }
 .homepageTitle {
     margin-top: 0;
@@ -45,7 +46,34 @@ body {
     font-size: 30px;
     color: #C97072;
 }
-.homepageTitle:hover {
-    color: #f53b57;
+.hire-button, a {
+    cursor: pointer;
+    margin-top: 50px;
+    text-decoration: none;
+    border-color: #b2bec3;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    font: inherit;
+    color: white;
+    font-size: 30px;
+    background-color: #3c6382;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    
+}
+#buttonText:hover{
+    text-decoration: none;
+    cursor: url(squirtle.cur) 0 16, pointer;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #3c6382;
+    color: #f47c7a;
+    cursor: url(squirtle.cur) 0 16, pointer;
+  }
+button: active {
+    transform: translateY(4px);
+    
 }
 
