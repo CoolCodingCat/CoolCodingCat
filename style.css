@@ -1,13 +1,9 @@
 
 body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    margin: 0;
-    
-   
-    
+    margin: 0; 
 }
 .homepage{
-    
     height: 800px;
     width: auto;
     display: flex;
@@ -74,6 +70,15 @@ button:hover {
   }
 button: active {
     transform: translateY(4px);
-    
+}
+.top-nav-bar {
+    background-color: #3c6382;
+    height: 25px;
+    display: flex;
+    justify-content : space-between;
+    padding:15px 50px 15px 50px;
+    font-size: 20px;
+    color: white;
+
 }
 
