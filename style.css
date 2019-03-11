@@ -4,7 +4,7 @@ body {
     margin: 0; 
 }
 .homepage{
-    height: 800px;
+    height: 600px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 }
 .logo {
     transition: 0.8s ease;
-    width: 400px;
+    width: 300px;
     opacity: 1.0;
     filter:alpha(opacity=100);
 }
@@ -44,7 +44,6 @@ body {
 }
 .hire-button, a {
     cursor: pointer;
-    margin-top: 50px;
     text-decoration: none;
     border-color: #b2bec3;
     width: 400px;
